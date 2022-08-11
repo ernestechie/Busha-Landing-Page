@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#header {
+  @apply px-8 h-screen w-screen md:px-16;
+}
+
+.benefits {
+  @apply h-full w-1/2 p-2 bg-white;
+}

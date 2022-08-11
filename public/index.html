@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+    <link href="./output.css" rel="stylesheet" />
+    <title>Busha Landing Page Clone | Busha home page</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- todo -->
+    <header
+      id="header"
+      class="bg-white font-grotesk font-semibold md:grid md:grid-cols-1 lg:grid-rows-6"
+    >
+      <nav class="py-4 flex justify-between items-center row-span-1">
+        <div class="logo">
+          <img src="./assets/svgs/busha-logo.svg" alt="SVG Logo of Busha.com" />
+        </div>
+        <!-- ? NAV LINKS -->
+        <ul
+          class="nav-link w-48 hidden justify-center items-center gap-10 md:flex"
+        >
+          <li><a href="#">Learn</a></li>
+          <li class="flex items-center gap-2">
+            <a href="#">Company</a> <ion-icon name="chevron-down"></ion-icon>
+          </li>
+        </ul>
+        <!-- ? NAV BUTTONS -->
+        <div class="nav-button w-44 flex justify-between items-center">
+          <a href="#">Login</a>
+          <a
+            href="#"
+            class="py-3 px-6 bg-gray-400 text-white hover:bg-green transition-all duration-700 ease-out"
+            >Sign Up</a
+          >
+        </div>
+      </nav>
+      <!-- todo -  HERO -->
+      <section
+        class="font-poppins text-gray-400 py-8 h-auto grid grid-rows-2 md:grid-cols-1 lg:grid-rows-none lg:grid-cols-2 lg:row-span-5"
+      >
+        <!-- ? HERO Content -->
+        <section class="md:pr-[3rem] md:pt-4 md:text-left">
+          <h1
+            class="text-[3rem] md:text-[3.4rem] font-bold leading-tight mb-4 text-center"
+          >
+            Your crypto journey starts here.
+          </h1>
+          <p class="p-2 lg:pr-8 text-center">
+            Buy, sell, and manage your cryptocurrency portfolio on the simplest,
+            safest and most trusted platform for all types of users
+          </p>
+          <!-- ? Google play & App store links -->
+          <div
+            class="app-links p-8 md:py-4 md:px-0 w-full md:w-2/3 flex items-center justify-between gap-4"
+          >
+            <a href="#">
+              <img
+                src="./assets/svgs/download-app-store-black.svg"
+                alt="App store download button"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/svgs/download-google-store-black.svg"
+                alt="Play store download button"
+              />
+            </a>
+          </div>
+          <!-- ? Benefits -->
+          <div
+            class="w-full h-40 py-2 flex gap-4 justify-center md:justify-around items-center font-medium text-gray-300 sm:w-[70%] sm:m-auto md:m-0"
+          >
+            <div class="benefits">
+              <ion-icon
+                name="chatbubbles-sharp"
+                class="text-[1.5rem] text-darkBlue"
+              ></ion-icon>
+              <p class="text-green">24/7 human</p>
+              <p class="text-green text-[0.9rem]">customer support</p>
+            </div>
+            <div class="benefits">
+              <ion-icon
+                name="bar-chart-sharp"
+                class="text-[1.5rem] text-orangeRed"
+              ></ion-icon>
+              <p>Trade with</p>
+              <p class="text-gray-200 text-[0.9rem]">zero fees</p>
+            </div>
+          </div>
+        </section>
+        <!-- ? HERO Image -->
+        <section
+          class="relative w-[90%] h-[400px] md:w-[70%] md:h-full m-auto mt-16 lg:w-full lg:mt-0"
+        >
+          <img
+            src="./assets/svgs/hero_follow-coin.svg"
+            alt=""
+            class="block absolute bottom-8 md:top-32 sm:bottom-0 z-10 lg:bottom-4"
+          />
+          <img
+            src="./assets/svgs/hero-center_1.svg"
+            alt=""
+            class="block m-auto md:absolute top-8 md:-top-8 md:left-16 z-0 md:w-[90%] w-4/5"
+          />
+        </section>
+      </section>
+    </header>
+
+    <!-- ? MAIN SECTION -->
+  </body>
+</html>
